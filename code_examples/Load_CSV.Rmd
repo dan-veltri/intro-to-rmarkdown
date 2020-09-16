@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r load-data}
 
 
-mydata = read.csv("NTP_Substances.csv",header=TRUE)
+mydata = read.csv("../datasets/NTP_Substances.csv",header=TRUE)
 
 attach(mydata)
 
