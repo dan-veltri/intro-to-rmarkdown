@@ -1,9 +1,9 @@
 ### Intro to R Markdown for Data Science
 An intro crash course for using R-markdown.
 
-Presentation Slides: [IntroRMarkdown_NIAID_91620.zip](available here) (last updated 9.16.2020) 
+Presentation Slides: [IntroRMarkdown_NIAID_91620.zip](IntroRMarkdown_NIAID_91620.zip)
 
-Recommended Handouts: [https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf](GitHub's Markdown Cheatsheet) | [https://github.com/rstudio/cheatsheets/raw/master/rmarkdown-2.0.pdf](R-Studio's RMarkdown Cheatsheet)
+Recommended Handouts: [GitHub's Markdown Cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf) | [R-Studio's RMarkdown Cheatsheet](https://github.com/rstudio/cheatsheets/raw/master/rmarkdown-2.0.pdf)
 
 #### Installation:
 Looking to the run examples on your own machine? First install R-studio and then the latest versions of the following packages:
