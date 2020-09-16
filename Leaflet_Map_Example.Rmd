@@ -1,0 +1,23 @@
+---
+title: "Example Leaflet Map"
+always_allow_html: yes
+output:
+  html_document: default
+  pdf_document: default
+---
+
+# Map of NIH Campuses
+
+```{r nih-leaflet-map}
+nih_campus = data.frame("Campus"=c("Bethesda","Research Triangle","Bayview", "NCI", "RML","PIMC"), "Lat"=c(39.0028,35.8839,39.2930,39.4370,46.2376,33.4973),"Lng"=c(-77.1045,-78.8832,-76.5489,-77.4347,-114.1599,-112.0494))
+
+print(nih_campus)
+library(leaflet)
+nih_map = leaflet(data = nih_campus) %>%
+  #addTiles() %>%
+  #addProviderTiles(providers$Stamen.Toner) %>%
+  #addProviderTiles(providers$CartoDB.Positron) %>%
+  addProviderTiles(providers$Esri.NatGeoWorldMap) %>%
+  addMarkers(~Lng, ~Lat, popup= ~Campus, label= ~Campus)
+nih_map
+```

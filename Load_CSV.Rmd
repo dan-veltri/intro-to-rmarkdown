@@ -1,0 +1,27 @@
+---
+title: "Load_CSV.Rmd"
+author: "Dan Veltri"
+date: "9/19/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Load in CSV Data
+
+```{r load-data}
+
+
+mydata = read.csv("NTP_Substances.csv",header=TRUE)
+
+attach(mydata)
+
+# Show the names of my columns!
+names(mydata)
+
+print.data.frame(as.data.frame(mydata))
+
+```

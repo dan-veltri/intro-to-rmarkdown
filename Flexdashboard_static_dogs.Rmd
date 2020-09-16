@@ -1,0 +1,28 @@
+---
+title: "Dashing Dog Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+```
+
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### This is a Corgi!
+
+![](https://cdn.pixabay.com/photo/2019/08/19/07/45/dog-4415649_1280.jpg)
+
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Cool Corgi Facts
+
+According to the American Kenel Club, the Pembroke Welsh Corgi should average between 10-12 inches in height, and weigh between 27-30 pounds.
+
