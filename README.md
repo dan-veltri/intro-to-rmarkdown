@@ -2,8 +2,12 @@
 
 An intro crash course for using R-markdown!
 
+Feel free to post your questions on this Google Document: [https://docs.google.com/document/d/1C0G0qHdxPKC_tUsb8OtlATDN0Zslb4T2xeWjZ9dyGMI/edit?usp=sharing](https://docs.google.com/document/d/1C0G0qHdxPKC_tUsb8OtlATDN0Zslb4T2xeWjZ9dyGMI/edit?usp=sharing)
 
-*Presentation Slides:* [IntroRMarkdown_NIAID_91620.zip](IntroRMarkdown_NIAID_91620.zip)
+
+*Presentation Slides:*
+* [IntroRMarkdown_NIAID_32421_PPT.zip](IntroRMarkdown_NIAID_32421_PPT.zip) [PowerPoint]
+* [IntroRMarkdown_NIAID_32421_PDF.zip](IntroRMarkdown_NIAID_32421_PDF.zip) [PDF]
 
 *Recommended Handouts:* [GitHub's Markdown Cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf) | [R-Studio's RMarkdown Cheatsheet](https://github.com/rstudio/cheatsheets/raw/master/rmarkdown-2.0.pdf)
 
