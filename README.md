@@ -1,6 +1,6 @@
 ## Intro to R Markdown for Data Science
 
-An intro crash course for using R-markdown for the R Interest Group at NIAID.
+An intro crash course for using R-markdown!
 
 
 *Presentation Slides:* [IntroRMarkdown_NIAID_91620.zip](IntroRMarkdown_NIAID_91620.zip)
