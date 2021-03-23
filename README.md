@@ -27,4 +27,4 @@ Then run in R: `webshot::install_phantomjs()`
 `tinytex` <-- Installs LaTeX - only needed if not already installed on machine
 Then run in R: `tinytex::install_tinytex()`
 
-*Note:* It might be easier on your machine to install LaTeX using a different installer rather than via TinyTex. See this page for more info! 
+*Note:* It might be easier on your machine to install LaTeX using a different installer rather than via TinyTex. [See this page for more info!](https://latex-tutorial.com/installation/) 
