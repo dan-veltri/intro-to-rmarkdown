@@ -2,7 +2,7 @@
 
 An intro crash course for using R-markdown!
 
-Feel free to post your questions on this Google Document: [https://docs.google.com/document/d/1C0G0qHdxPKC_tUsb8OtlATDN0Zslb4T2xeWjZ9dyGMI/edit?usp=sharing](https://docs.google.com/document/d/1C0G0qHdxPKC_tUsb8OtlATDN0Zslb4T2xeWjZ9dyGMI/edit?usp=sharing)
+Feel free to post your questions in [this Google Document](https://docs.google.com/document/d/1C0G0qHdxPKC_tUsb8OtlATDN0Zslb4T2xeWjZ9dyGMI/edit?usp=sharing)!
 
 
 *Presentation Slides:*
