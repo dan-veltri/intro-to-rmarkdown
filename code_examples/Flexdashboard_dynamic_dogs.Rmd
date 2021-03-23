@@ -12,22 +12,22 @@ library(knitr)
 
 # we can use these anywhere in the document - they are global variables
 
-dog_facts = list("Corgi" = "According to the American Kenel Club, the Pembroke Welsh Corgi should be 10-12 inches in height and weigh between 28-30 pounds.",
-                 "Keeshond" = "According to the American Kenel Club, the Keeshond should be 17-19 inches in height and weigh between 34-45 pounds.")
+facts = list("Corgi" = "According to the American Kenel Club, the Pembroke Welsh Corgi should be 25.4-30.5 cm in height and weigh between 12.7-13.6 kg.",
+             "Keeshond" = "According to the American Kenel Club, the Keeshond should be 43.2-48.3 cm in height and weigh between 15.4-20.4 kg.")
 
 
-dog_pix = list("Corgi" = 'https://cdn.pixabay.com/photo/2019/08/19/07/45/dog-4415649_1280.jpg',
-               "Keeshond" = 'https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/28142535/Keeshond-exploring-in-the-backyard.jpg')
+pics = list("Corgi" = 'https://cdn.pixabay.com/photo/2019/08/19/07/45/dog-4415649_1280.jpg',
+            "Keeshond" = 'https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/28142535/Keeshond-exploring-in-the-backyard.jpg')
 
 ```
 
 Inputs {.sidebar}
 -----------------------------------------------------------------------
 ```{r}
-selectInput("breed",
+selectInput( "breed",
             label=h3("Select Dog Breed:"),
             choices = c("Corgi","Keeshond"),
-            selected = "Corgi") # "selected here is the default value
+            selected = "Corgi" ) # "selected here is the default value
 ```
 
 
@@ -38,11 +38,11 @@ Row
 ### Photo of this Breed
 
 ```{r}
-this_url = reactive( as.character(dog_pix[input$breed]) )
+this_url = reactive( as.character(pics[input$breed]) )
 
 # Note if these images were saved locally we could use "renderImage" instead of renderUI
 renderUI(
-  tags$img(src=this_url(), width="90%", alt="Picture of a dog")
+  tags$img(src=this_url(), height="100%", alt="Picture of a dog")
 )
 
 
@@ -56,7 +56,7 @@ Row
 ### Cool Facts about this Breed
 
 ```{r}
-this_fact <- reactive( as.character( dog_facts[ input$breed ] ) )
+this_fact <- reactive( as.character( facts[ input$breed ] ) )
 ```
 
 #### Did you know?
