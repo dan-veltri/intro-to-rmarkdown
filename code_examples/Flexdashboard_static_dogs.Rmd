@@ -24,5 +24,5 @@ Column {data-width=350}
 
 ### Cool Corgi Facts
 
-According to the American Kenel Club, the Pembroke Welsh Corgi should average between 10-12 inches in height, and weigh between 27-30 pounds.
+According to the American Kenel Club, the Pembroke Welsh Corgi should be 25.4-30.5 cm in height and weigh between 12.7-13.6 kg.
 
