@@ -32,7 +32,7 @@ Then run in R: `webshot::install_phantomjs()`
 Then run in R: `tinytex::install_tinytex()`
 
 You may need to ssh into the server, type `R` to enter an R session, and install the packages with the following line:
-`install.packages(c("dplyr","knitr","rmarkdown","flexdashboard","reticulate","plotly","leaflet","mapview")`
+`install.packages(c("dplyr","knitr","rmarkdown","flexdashboard","reticulate","plotly","leaflet","mapview"))`
 
 Notice that `kableExtra` has been left out to prevent problems. You will also need to type the `tinytex::install_tinytex()` line mentioned above after the packages install. After this the R Shiny server should be able to run most of the basic examples.
 
