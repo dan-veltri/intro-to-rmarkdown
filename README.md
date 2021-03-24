@@ -20,7 +20,7 @@ Looking to the run examples on your own machine? First install R-studio and then
 * `flexdashboard`
 * `reticulate`
 * `plotly`
-* `kableExtra` <-- This may not install correctly on the server
+* `kableExtra`
 * `leaflet`
 * `mapview`
 
@@ -31,9 +31,12 @@ Then run in R: `webshot::install_phantomjs()`
 `tinytex` <-- Installs LaTeX - only needed if not already installed on machine
 Then run in R: `tinytex::install_tinytex()`
 
-You may need to ssh into the server, type `R` to enter an R session, and install the packages with the following line:
-`install.packages(c("dplyr","knitr","rmarkdown","flexdashboard","reticulate","plotly","leaflet","mapview"))`
 
-Notice that `kableExtra` has been left out to prevent problems. You will also need to type the `tinytex::install_tinytex()` line mentioned above after the packages install. After this the R Shiny server should be able to run most of the basic examples.
+On the R Studio Server - you can use the preinstalled packages by typing the following in the console:
+`old_path <- Sys.getenv("PATH")
+Sys.setenv(PATH = paste(old_path, "/biocompace/bin", sep = ":"))`
+
+If you want to install the packages in your own local machine/directory, install the packages with the following line (and then run the `install_tinytex` function above):
+`install.packages(c("dplyr","knitr","rmarkdown","kableExtra","flexdashboard","reticulate","plotly","leaflet","mapview"))`
 
 *Note:* If installing on your own machine, it might be easier on your machine to install LaTeX using a different installer rather than via TinyTex. [See this page for more info!](https://latex-tutorial.com/installation/) 
