@@ -33,6 +33,7 @@ Then run in R: `tinytex::install_tinytex()`
 
 
 On the R Studio Server - you can use the preinstalled packages by typing the following in the console:
+
 `old_path <- Sys.getenv("PATH")
 Sys.setenv(PATH = paste(old_path, "/biocompace/bin", sep = ":"))`
 
