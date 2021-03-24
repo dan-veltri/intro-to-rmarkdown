@@ -34,8 +34,9 @@ Then run in R: `tinytex::install_tinytex()`
 
 On the R Studio Server - you can use the preinstalled packages by typing the following in the console:
 
-`old_path <- Sys.getenv("PATH")`
-`Sys.setenv(PATH = paste(old_path, "/biocompace/bin", sep = ":"))`
+`old_path <- Sys.getenv("PATH")
+
+Sys.setenv(PATH = paste(old_path, "/biocompace/bin", sep = ":"))`
 
 If you want to install the packages in your own local machine/directory, install the packages with the following line (and then run the `install_tinytex` function above):
 `install.packages(c("dplyr","knitr","rmarkdown","kableExtra","flexdashboard","reticulate","plotly","leaflet","mapview"))`
