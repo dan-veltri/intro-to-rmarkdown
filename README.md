@@ -6,8 +6,8 @@ Feel free to post your questions in [this Google Document](https://docs.google.c
 
 
 *Presentation Slides:*
-* [IntroRMarkdown_NIAID_32421_PPT.zip](IntroRMarkdown_NIAID_32421_PPT.zip) [PowerPoint]
-* [IntroRMarkdown_NIAID_32421_PDF.zip](IntroRMarkdown_NIAID_32421_PDF.zip) [PDF]
+* [IntroRMarkdown_NIAID_32421_PPT.zip](https://github.com/dan-veltri/intro-to-rmarkdown/blob/master/IntroRMarkdown_NIAID_32421_PowerPoint.zip) [PowerPoint]
+* [IntroRMarkdown_NIAID_32421_PDF.zip](https://github.com/dan-veltri/intro-to-rmarkdown/blob/master/IntroRMarkdown_NIAID_32421_PDF.zip) [PDF]
 
 *Recommended Handouts:* [GitHub's Markdown Cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf) | [R-Studio's RMarkdown Cheatsheet](https://github.com/rstudio/cheatsheets/raw/master/rmarkdown-2.0.pdf)
 
