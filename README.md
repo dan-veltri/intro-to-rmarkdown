@@ -9,7 +9,7 @@ Feel free to post your questions in [this Google Document](https://docs.google.c
 * [IntroRMarkdown_NIAID_32421_PowerPoint.zip](https://github.com/dan-veltri/intro-to-rmarkdown/blob/master/IntroRMarkdown_NIAID_32421_PowerPoint.zip) [PowerPoint]
 * [IntroRMarkdown_NIAID_32421_PDF.zip](https://github.com/dan-veltri/intro-to-rmarkdown/blob/master/IntroRMarkdown_NIAID_32421_PDF.zip) [PDF]
 
-*Recommended Handouts:* [GitHub's Markdown Cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf) | [R-Studio's RMarkdown Cheatsheet](https://github.com/rstudio/cheatsheets/raw/master/rmarkdown-2.0.pdf)
+*Recommended Handouts:* [GitHub's Markdown Cheatsheet](https://enterprise.github.com/downloads/en/markdown-cheatsheet.pdf) | [R-Studio's RMarkdown Cheatsheet](https://github.com/rstudio/cheatsheets/raw/master/rmarkdown-2.0.pdf)
 
 ### Installation:
 Looking to the run examples on your own machine? First install R-studio and then the latest versions of the following packages:
