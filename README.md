@@ -2,7 +2,7 @@
 
 An intro crash course for using R-markdown!
 
-*Code Example Files:* [Rmarkdown_Examples.zip](Rmarkdown_Examples.zip) - Example code and datasets to go along with the slides. 
+*Code Example Files:* [Rmarkdown_Examples.zip](https://github.com/dan-veltri/intro-to-rmarkdown/blob/master/Rmarkdown_Examples.zip) - Example code and datasets to go along with the slides. 
 
 *Presentation Slides:* Last Updated Mar. 26, 2021 with fixed link)
 * [IntroRMarkdown_NIAID_32421_PowerPoint.zip](https://github.com/dan-veltri/intro-to-rmarkdown/blob/master/IntroRMarkdown_NIAID_32421_PowerPoint.zip) [PowerPoint]
