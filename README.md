@@ -2,14 +2,16 @@
 
 An intro crash course for using R-markdown!
 
-Feel free to post your questions in [this Google Document](https://docs.google.com/document/d/1C0G0qHdxPKC_tUsb8OtlATDN0Zslb4T2xeWjZ9dyGMI/edit?usp=sharing)!
-
+*Code Example Files:* [Rmarkdown_Examples.zip](Rmarkdown_Examples.zip) - Example code and datasets to go along with the slides. 
 
 *Presentation Slides:* Last Updated Mar. 26, 2021 with fixed link)
 * [IntroRMarkdown_NIAID_32421_PowerPoint.zip](https://github.com/dan-veltri/intro-to-rmarkdown/blob/master/IntroRMarkdown_NIAID_32421_PowerPoint.zip) [PowerPoint]
 * [IntroRMarkdown_NIAID_32421_PDF.zip](https://github.com/dan-veltri/intro-to-rmarkdown/blob/master/IntroRMarkdown_NIAID_32421_PDF.zip) [PDF]
 
 *Recommended Handouts:* [GitHub's Markdown Cheatsheet](https://enterprise.github.com/downloads/en/markdown-cheatsheet.pdf) | [R-Studio's RMarkdown Cheatsheet](https://github.com/rstudio/cheatsheets/raw/master/rmarkdown-2.0.pdf)
+
+Feel free to post your questions in [this Google Document](https://docs.google.com/document/d/1C0G0qHdxPKC_tUsb8OtlATDN0Zslb4T2xeWjZ9dyGMI/edit?usp=sharing)!
+
 
 ### Installation:
 Looking to the run examples on your own machine? First install R-studio and then the latest versions of the following packages:
